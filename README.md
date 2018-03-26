@@ -19,10 +19,10 @@ Personally, I think we could use some font that's a bit more legible than what w
 ### Form
 The current form implementation can be found in the add student page. What it does is take in info that would be found in all the current student pages in either the "Tennis Players" or "Professionals" tabs. The idea is to allow someone to add new students, which will generate new tabs when a student with a Category that doesn't match any of the existing ones is added. Currently, the "name" attribute of each input field (e.g. name="category"), and said fields contents, is sent in an http POST message to the page loaded by the form (which is currently the studentAdded.php file), where these attributes can be called and used to display text from the form on the screen, or use text from the form to add data to a database (e.g. <?php echo $_POST["category"]; ?> is a use of the POST message data to display text on the page).
 
-##### Currently, the following name attributes are for:
-####### "firstName" = New student's first name
-####### "lastName" = New student's last name
-####### "bio" = New student's main bio text
-####### "category" = New student's tab category
-####### "subheading" = The heading after the new student's bio
-####### "subheadingInfo" = The text under the heading after the new student's bio
+#### Currently, the following name attributes are for:
+###### "firstName" = New student's first name
+###### "lastName" = New student's last name
+###### "bio" = New student's main bio text
+###### "category" = New student's tab category
+###### "subheading" = The heading after the new student's bio
+###### "subheadingInfo" = The text under the heading after the new student's bio
