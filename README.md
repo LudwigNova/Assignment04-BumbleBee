@@ -2,7 +2,7 @@
 ### IA - Luis Nova
 ### Coder - Melanie DeJong
 ### Design Artist - Fayth Kim
-##### Website URL - 
+##### Website URL - http://urcsc174.org/assignment04/Assignment04-BumbleBee/
 ##### Github - https://github.com/LudwigNova/Assignment04-BumbleBee
 
 ## Colophon
