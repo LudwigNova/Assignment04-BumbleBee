@@ -2,39 +2,40 @@
 	<article>
 		 <div id = "bodyContainer3">
        <form method="POST" action="studentAdded.php">
-         <div className="formSubTitle">
-             First Name
-         </div>
-          <input type="text" name="firstName" required>
-          </input>
-          <div className="formSubTitle">
-              Last Name
+	       <div className="formSubTitle">
+	           What's your name?
+	       </div>
+        <input type="text" name="feedbackGiverName" required>
+        </input>
+
+					<div className="formSubTitle">
+              Which student was your favorite?
           </div>
-          <input type="text" name="lastName" required>
-          </input>
+					<div>
+				    <input type="radio" id="studentChoice1"
+				     name="studentChoice" value="student">
+				    <label for="studentChoice1">Alexander Punj</label>
+						<br/>
+				    <input type="radio" id="studentChoice2"
+				     name="studentChoice" value="student">
+				    <label for="studentChoice2">Masaru Fujimaki</label>
+						<br/>
+				    <input type="radio" id="studentChoice3"
+				     name="studentChoice" value="student">
+				    <label for="studentChoice3">Matt Resnikoff</label>
+						<br/>
+						<input type="radio" id="studentChoice4"
+				     name="studentChoice" value="student">
+				    <label for="studentChoice4">Zubair Aziz</label>
+				  </div>
           <div className="formSubTitle">
-              Bio
+              Why?
           </div>
           <textarea rows="5" cols="50" name="bio" required>
           </textarea>
-          <div className="formSubTitle">
-              Category
-          </div>
-          <input type="text" name="category" required>
-          </input>
-          <div className="formSubTitle">
-              Bio Sub-Heading
-          </div>
-          <input type="text" name="subHeading" required>
-          </input>
-          <div className="formSubTitle">
-              Info for Sub-Heading
-          </div>
-          <textarea rows="5" cols="50" name="subHeadingInfo" required>
-          </textarea>
-          <br/>
-          <input type="submit" value="Add Student" id="addStudentButton">
-          </input>
+					<br/>
+					<input type="submit" id="submitButton"
+					 name="submitClick" value="Submit">
         </form>
       </div>
    </article>
