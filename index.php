@@ -29,7 +29,7 @@
                 heightStyle: "content"
             });
         </script>
-        <script src="sss/sss.min.js"></script>
+        <script src="js/sss/sss.min.js"></script>
         <script>
             $('.slider').sss();
         </script>
