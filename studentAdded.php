@@ -7,15 +7,12 @@
   $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
   //1.5. Scrub data
-  $firstName = Trim(stripslashes($_POST['firstName']));
-  $lastName = Trim(stripslashes($_POST['lastName'])); 
-  $bio = Trim(stripslashes($_POST['bio'])); 
-  $category = Trim(stripslashes($_POST['category'])); 
-  $subHeading = Trim(stripslashes($_POST['subHeading'])); 
-  $subHeadingInfo = Trim(stripslashes($_POST['subHeadingInfo']));  
+  $feedbackGiverName = Trim(stripslashes($_POST['feedbackGiverName']));
+  $studentChoice = $_POST['studentChoice']; 
+  $reason = Trim(stripslashes($_POST['reason']));   
 
   //2. Perform database query
-  $query = "INSERT INTO students (firstName, lastName, bio, category, subHeading, subHeadingInfo) VALUES ('$firstName', '$lastName', '$bio', '$category', '$subHeading', '$subHeadingInfo')";
+  $query = "INSERT INTO favorite_students (feedbackGiverName, studentChoice, reason) VALUES ('$feedbackGiverName', '$studentChoice', '$reason')";
   $result = mysqli_query($connection, $query); 
 
   //3. Error handling (we're skipping that)
@@ -25,12 +22,11 @@
 	<article>
 		 <div id = "bodyContainer3">
       Success!
-      The student
-      <?php echo $_POST["firstName"]; ?>
-      <?php echo $_POST["lastName"]; ?>
-      has been added under the
-      <?php echo $_POST["category"]; ?>
-      category.
+      You, 
+      <?php echo $_POST["feedbackGiverName"]; ?>
+      , have chosen 
+      <?php echo $_POST["studentChoice"]; ?>
+      as your favorite student.
     </div>
   </article>
  </body>
