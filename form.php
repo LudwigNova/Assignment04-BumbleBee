@@ -1,6 +1,6 @@
 <?php include "inc/html-top.inc"; ?>
 	
-		 <div id = "bodyContainer3">
+		 <div id = "bodyContainer4">
        <form method="POST" action="studentAdded.php">
 	       <div class="formSubTitle">
 	           What's your name?
