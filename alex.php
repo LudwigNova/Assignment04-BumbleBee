@@ -17,7 +17,7 @@
    		 </ul>
 
 
-		<h3>Tennis Highlights</h2>
+		<h3>Tennis Highlights</h3>
 		<ul>
 			<li> Originally came to the U of R to play on the Varsity tennis team </li>
 			<li> Other highlights include traveling to many countries, coding multiple websites and listening to trance music </li>

@@ -14,7 +14,7 @@
 
 
 
-		<h3> Tennis Highlights </h2>
+		<h3> Tennis Highlights </h3>
 		<ul>
 			<li> I play tennis for Shanghai team and U of R </li>
 			<li> I Was inspired to start playing when I was very young by the anime series, "Prince of Tennis" </li>

@@ -2,13 +2,12 @@
 	
 		 <div id = "bodyContainer3">
        <form method="POST" action="studentAdded.php">
-	       <div className="formSubTitle">
+	       <div class="formSubTitle">
 	           What's your name?
 	       </div>
         <input type="text" name="feedbackGiverName" required>
-        </input>
 
-					<div className="formSubTitle">
+					<div class="formSubTitle">
               Which student was your favorite?
           </div>
 					<div>
@@ -28,7 +27,7 @@
 				     name="studentChoice" value="Zubair Aziz">
 				    <label for="studentChoice4">Zubair Aziz</label>
 				  </div>
-          <div className="formSubTitle">
+          <div class="formSubTitle">
               Why?
           </div>
           <textarea rows="5" cols="50" name="reason" required></textarea>
