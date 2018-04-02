@@ -1,7 +1,7 @@
 <?php include "inc/html-top.inc"; ?>
 	
 		 <div class = "bodyContainer4">
-       <form method="POST" action="studentAdded.php">
+       <form method="POST" action="student_added.php">
 	       <div class="formSubTitle">
 	           <h2>What's your name?</h2>
 	       </div>
