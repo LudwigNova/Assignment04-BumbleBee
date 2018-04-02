@@ -22,5 +22,3 @@
         
       <!-- Navigation bar -->
         <?php include "nav.inc";?>
-      </body>
-      </html>
