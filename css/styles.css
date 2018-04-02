@@ -8,15 +8,20 @@
 	display: grid;
 	margin: 0 1.5% 24px 1.5%;
 	background: linear-gradient(to right, #E8F9F1  0%, #2E4057 100%);
-    border-radius: 4px;
+    border-radius: 5px;
     text-align: left;
-    padding: 30px 15px;
+    padding: 40px 35px;
 }
 
 .slider {
   margin: 0 auto;
-  width: 400px;
-  padding: 20px;
+  width: 40%;
+  padding-left: 20%;
+  padding-bottom: 30px;
+}
+.slider img{
+	width: 250px;
+	height: auto;
 }
 
 
@@ -35,7 +40,7 @@ body {
 }
 
 header a {
-	color: black;
+	color: #2E4057;
 }
 
 header a:hover {
@@ -46,7 +51,7 @@ h1 {
 	color: #F0C808;
 	font-family: 'Russo One', sans-serif;
 	font-size: 45px;
-	padding-left: 40px;
+	padding-left: 50px;
 	padding-bottom: 10px;
 	border-bottom-style: solid;
 }
@@ -62,6 +67,7 @@ h1 {
 }
 .tennis {
 	font-style: normal;
+	text-align: center;
 	font-weight: normal;
 	font-size: 30px;
 	padding-left: 15px;
@@ -96,8 +102,9 @@ h2 {
 ol, ul { padding-left: 20px; }
 
 .navbar ul {
-	padding-left: 40px;
-	margin-left: 60%;
+	padding-right: 15px;
+	margin-left: 30px;
+	margin-top: -15px;
 }
 .navbar li {
 	font-family: 'Changa', sans-serif;
@@ -106,7 +113,7 @@ ol, ul { padding-left: 20px; }
 }
 .navbar a {
 	display: block;
-  padding: 6px;
+  	padding: 6px;
 	border: 1px solid #333333;
 	background-color: #06AED5;
 }
@@ -115,12 +122,7 @@ ol, ul { padding-left: 20px; }
 	color: #F0C808;
 }
 .navbar {
-	position: absolute;
 	width: 100%;
-	top: 0;
-	z-index: 1000;
-	left: 0;
-	padding-top: 10px;
 }
 
 a {
@@ -147,9 +149,9 @@ a:hover { color: #b2cecf;}
 }
 
 .is-current {
- 		background-color:#2E4057 ;
- 		color: #F0C808;
-	}
+ 	background-color:#2E4057;
+ 	color: #F0C808;
+ }
 
 .image-holder {
 	text-align: center;
@@ -161,21 +163,21 @@ img {
 
 .bodyContainer3 {
     color:black;
-    width: 80%;
+    width: 90%;
     max-width: 960px;
-    margin-left: 5%;
+    margin-left: 50px;
     background-color: #06AED5;
     font-family: 'Bubblegum Sans', cursive;
-		padding-bottom: 2.5%;
+	padding-bottom: 2.5%;
 }
 .bodyContainer3prof {
     color:black;
-    width: 80%;
+    width: 90%;
     max-width: 960px;
-    margin-left: 5%;
-    background-color: #D1D1D2;
+    margin-left: 50px;
+    background-color: #F3F4F4;
     font-family: 'EB Garamond', serif;
-		padding-bottom: 2.5%;
+	padding-bottom: 2.5%;
 }
 
 /* The usage of this image here shows the proximity and allignment principles well*/
@@ -194,19 +196,21 @@ img {
     border: none;
     padding-left: 0px;
     padding-right: 20px;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 .bodyContainer4{
 	background: linear-gradient(to right, #E8F9F1  0%, #2E4057 100%);
-	width: 80%;
+	width: 90%;
 	max-width: 960px;
 	margin-left: 30px;
 	padding: 10px 20px 10px 20px;
 	font-family: 'Changa', sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	color: black;
+	padding-bottom: 2.5%;
 }
 .formSubTitle h2{
+	font-weight: bold;
 	color: black;
 	background: linear-gradient(to right, #E8F9F1  0%, #2E4057 100%);
 	font-family: 'Changa', sans-serif;
@@ -241,6 +245,8 @@ img {
     color: black;
     padding: 12px 16px;
     display: block;
+    font-family: 'Changa', sans-serif;
+    font-size: 16px;
 }
 
 .dropdown-content a:hover {
@@ -254,6 +260,7 @@ img {
 }
 
 .dropdown:hover .dropbtn {
-  background-color:  #2E4057;
-			color: #F0C808;
+  	background-color:  #2E4057;
+	color: #F0C808;
 }
+
