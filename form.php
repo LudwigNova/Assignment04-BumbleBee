@@ -3,12 +3,12 @@
 		 <div class = "bodyContainer4">
        <form method="POST" action="studentAdded.php">
 	       <div class="formSubTitle">
-	           What's your name?
+	           <h2>What's your name?</h2>
 	       </div>
         <input type="text" name="feedbackGiverName" required>
 
 					<div class="formSubTitle">
-              Which student was your favorite?
+              <h2>Which student was your favorite?</h2>
           </div>
 					<div>
 				    <input type="radio" id="studentChoice1"
@@ -28,7 +28,7 @@
 				    <label for="studentChoice4">Zubair Aziz</label>
 				  </div>
           <div class="formSubTitle">
-              Why?
+              <h2>Why?</h2>
           </div>
           <textarea rows="5" cols="50" name="reason" required></textarea>
 					<br/>

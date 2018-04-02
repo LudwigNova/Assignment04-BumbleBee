@@ -27,6 +27,12 @@ The current form implementation can be found in the "Leave Feedback?" tab. What 
 ###### "reason" = The explanation for why the feedback giver's favorite student is that person.
 
 ### Designer
+	The original site was poorly optimized in both margin spacing, font styles, image sizing, and F/Z-patterns. These problems were fixed while incorporating an element of contrast (tennis players v. professional students).
+
+#### Index Page
+The original index page had the header and navigation bar cornered without much styling and wasn't very appealing. In addition, the image sizing was better optimized so they were not blurry. A Z-pattern can be seen in the index page from the header/nav bar --> slideshow --> student descriptions.
+#### Student Pages
+Differences in CSS was ultimately used to contrast the professional student from the tennis players. This could be seen by the styling differences in both color, font, and image layouts.
 
 ### Coder
   Known errors: blurry photos
