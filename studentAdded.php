@@ -15,7 +15,7 @@
 
 <?php include "inc/html-top.inc"; ?>
 
-		 <div id = "bodyContainer3">
+		 <div class = "bodyContainer3">
       Success! You, 
       <?php echo $_POST["feedbackGiverName"];?>, have chosen 
       <?php echo $_POST["studentChoice"]; ?>

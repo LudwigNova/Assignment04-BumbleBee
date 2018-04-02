@@ -1,9 +1,9 @@
 <?php include "inc/html-top.inc"; ?>
- 	<div id = "bodyContainer3">
-    <h2 id = "tennis">Alexander Punj</h2>
+ 	<div class = "bodyContainer3">
+    <h2 class = "tennis">Alexander Punj</h2>
 		<img src="images/alex.jpg" alt="Alexander Punj">
-    <h3 id = "tennish3"> Bio </h3>
-    <p>
+    <h3 class = "tennish3"> Bio </h3>
+    
 		<ul>
     		<li> At the U of R Alex found his true passion – computer science </li>
     		<li> I’m originally from Iowa and my ethnic heritage consists of quarter Indian, quarter German, and half Russian </li>
@@ -13,16 +13,16 @@
     		<li> I have taken a variety of courses at the university. I now am an Economics major with a minor in Audio & Music Engineering in my junior year. </li>
 			<li> Outside of academics, I am a freelance audio engineer and created BoredProductions.ml to display my work. I included a few words about why audio engineering is necessary, just so potential clients are convinced.</li>
     </ul>
-    </p>
+    
 
-		<h3 id = "tennish3">Tennis Highlights</h2>
-		<p>
+		<h3 class = "tennish3">Tennis Highlights</h3>
+	
 		<ul>
 			<li> Originally came to the U of R to play on the Varsity tennis team </li>
 			<li> Other highlights include traveling to many countries, coding multiple websites and listening to trance music </li>
 			<li> Avid fan of watching any tennis match </li>
 		</ul>
-    </p>
+    
 
 </div><!--.container-->
 
