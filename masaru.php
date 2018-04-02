@@ -1,7 +1,6 @@
 <?php include "inc/html-top.inc"; ?>
 		<div id = "bodyContainer3">
 			<h2 id = "tennis">Masaru Fujimaki</h2>
-
 			<img src="images/masaru.png" alt="Masaru Fujikama">
 			<h3 id = "tennish3"> Bio </h3>
 			<p>
