@@ -1,4 +1,3 @@
-<<<<<<< HEAD:a3css/styles.css
 /*	*************************************
 	Base
 	************************************* */
@@ -109,7 +108,10 @@ ol, ul { padding-left: 20px; }
 }
 .navbar a {
 	display: block;
-	padding: 6px;
+
+  
+  
+  padding: 6px;
 	border: 1px solid #333333;
 	background-color: #06AED5;
 }
@@ -258,7 +260,6 @@ img {
   background-color:  #2E4057;
 			color: #F0C808;
 }
-=======
 /*	*************************************
 	Base
 	************************************* */
@@ -421,4 +422,3 @@ img {
     background-color: grey;
 		color: #b2cecf;
 }
->>>>>>> master:css/styles.css
