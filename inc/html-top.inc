@@ -14,8 +14,13 @@
         <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
       </head>
       <body>
+        <div class = "headerContainer">
         <header>
             <h1><a href="index.php">Students of CSC 174</a></h1>
         </header>
+        </div>
+        
       <!-- Navigation bar -->
         <?php include "nav.inc";?>
+      </body>
+      </html>
