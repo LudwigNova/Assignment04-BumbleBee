@@ -9,8 +9,11 @@
         <link rel="stylesheet" type="text/css" href="a3css/styles.css">
         <link rel="stylesheet" href="sss/sss.css">
         <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-        <link href="https://fonts.googleapis.com/css?family=Bellefair" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+
       </head>
       <body>
         <header>
