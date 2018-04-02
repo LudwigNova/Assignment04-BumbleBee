@@ -23,18 +23,19 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
-        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-        <script>
+     <script>
             $("#accordion").accordion({
                 heightStyle: "content"
             });
-        </script>
-        <script src="sss/sss.min.js"></script>
-        <script>
-            $('.slider').sss();
-        </script>
-        <script src="http://code.jquery.com/jquery.js"></script>
-        <script src="js/menu-highlighter.js"></script>
+    </script>
+       
+    <script src="js/sss/sss.min.js"></script>
+    <script>
+         $('.slider').sss();
+    </script>
+    
+    <script src="js/menu-highlighter.js"></script>
+
   <footer class="footer">
     <span>Page created by Team Bumble Bee</span>
   </footer>

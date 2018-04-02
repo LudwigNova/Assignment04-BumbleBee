@@ -1,42 +1,79 @@
 <?php include "inc/html-top.inc"; ?>
+<<<<<<< HEAD
 	<article>
+		 <div id = "bodyContainer4">
+       <form method="POST" action="studentAdded.php">
+	       <div class="formSubTitle">
+	           <h2> What's your name? </h2>
+	       </div>
+        <input type="text" name="feedbackGiverName" required>
+        </input>
+
+					<div class="formSubTitle">
+              <h2>Which student was your favorite?</h2>
+          </div>
+					<div>
+				    <input type="radio" id="studentChoice1"
+				     name="studentChoice" value="student">
+				    <label for="studentChoice1">Alexander Punj</label>
+						<br/>
+				    <input type="radio" id="studentChoice2"
+				     name="studentChoice" value="student">
+				    <label for="studentChoice2">Masaru Fujimaki</label>
+						<br/>
+				    <input type="radio" id="studentChoice3"
+				     name="studentChoice" value="student">
+				    <label for="studentChoice3">Matt Resnikoff</label>
+						<br/>
+						<input type="radio" id="studentChoice4"
+				     name="studentChoice" value="student">
+=======
+	
 		 <div id = "bodyContainer3">
        <form method="POST" action="studentAdded.php">
-         <div className="formSubTitle">
-             First Name
-         </div>
-          <input type="text" name="firstName" required>
-          </input>
-          <div className="formSubTitle">
-              Last Name
+	       <div class="formSubTitle">
+	           What's your name?
+	       </div>
+        <input type="text" name="feedbackGiverName" required>
+
+					<div class="formSubTitle">
+              Which student was your favorite?
           </div>
-          <input type="text" name="lastName" required>
-          </input>
-          <div className="formSubTitle">
-              Bio
+					<div>
+				    <input type="radio" id="studentChoice1"
+				     name="studentChoice" value="Alexander Punj">
+				    <label for="studentChoice1">Alexander Punj</label>
+						<br/>
+				    <input type="radio" id="studentChoice2"
+				     name="studentChoice" value="Masaru Fujimaki">
+				    <label for="studentChoice2">Masaru Fujimaki</label>
+						<br/>
+				    <input type="radio" id="studentChoice3"
+				     name="studentChoice" value="Matt Resnikoff">
+				    <label for="studentChoice3">Matt Resnikoff</label>
+						<br/>
+						<input type="radio" id="studentChoice4"
+				     name="studentChoice" value="Zubair Aziz">
+>>>>>>> master
+				    <label for="studentChoice4">Zubair Aziz</label>
+				  </div>
+          <div class="formSubTitle">
+              Why?
           </div>
+<<<<<<< HEAD
           <textarea rows="5" cols="50" name="bio" required>
           </textarea>
-          <div className="formSubTitle">
-              Category
-          </div>
-          <input type="text" name="category" required>
-          </input>
-          <div className="formSubTitle">
-              Bio Sub-Heading
-          </div>
-          <input type="text" name="subHeading" required>
-          </input>
-          <div className="formSubTitle">
-              Info for Sub-Heading
-          </div>
-          <textarea rows="5" cols="50" name="subHeadingInfo" required>
-          </textarea>
-          <br/>
-          <input type="submit" value="Add Student" id="addStudentButton">
-          </input>
+=======
+          <textarea rows="5" cols="50" name="reason" required></textarea>
+>>>>>>> master
+					<br/>
+					<input type="submit" id="submitButton"
+					 name="submitClick" value="Submit">
         </form>
       </div>
-   </article>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/menu-highlighter.js"></script>
+
   </body>
  </html>
