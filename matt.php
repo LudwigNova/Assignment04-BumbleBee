@@ -1,11 +1,11 @@
 <?php include "inc/html-top.inc"; ?>
-	<article>
-		<div id = "bodyContainer3">
+
+	<div id = "bodyContainer3">
 
 		<h2>Matt Resnikoff</h2>
-		<img src="images/matt.jpeg" alt="Fed">
-		<p>
-
+		
+		<img src="images/matt.jpeg" alt="Matt Resnikoff">
+		
 		<ul>
 			<li> Junior at the U of R, majoring in Economics and double minoring in Computer Science and Journalism </li>
 			<li> Originally, I am from West Long Branch, New Jersey. It’s about 15 minutes to the beach. Woo! </li>
@@ -17,17 +17,14 @@
 			<li> Moving forward, I wish to found a way to intertwine my love of rocks with my career. I am hoping to find a career in hacking astroids, because I believe that would be an ideal way to use my computer skills, build on my interest in rocks, while also saving the world. </li>
 			<li> I have made a deal with myself, that no matter what happens moving forward, I will not let anything get in the way of my rocks. If my wife says no rocks, then cya wife. </li>
 		</ul>
-		</p>
+		
 		<h3>Tennis Highlights</h3>
-		<p>
 		<ul>
 			<li> I just recently joined the varsity team after being a part of the club team for the past two and a half years </li>
 			<li> My tennis career has opened up a number of opportunities throughout my life </li>
 			<li> My favorite player is Roger Federer (duh) </li>
 		</ul>
-		</p>
-		</div>
-	</article>
+		
 </div><!--.container-->
 
 <script src="http://code.jquery.com/jquery.js"></script>

@@ -14,16 +14,14 @@
 ?>
 
 <?php include "inc/html-top.inc"; ?>
-	<article>
+
 		 <div id = "bodyContainer3">
-      Success!
-      You, 
-      <?php echo $_POST["feedbackGiverName"]; ?>
-      , have chosen 
+      Success! You, 
+      <?php echo $_POST["feedbackGiverName"];?>, have chosen 
       <?php echo $_POST["studentChoice"]; ?>
       as your favorite student.
     </div>
-  </article>
+
  </body>
 </html>
 
